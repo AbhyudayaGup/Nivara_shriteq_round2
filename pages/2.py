@@ -26,7 +26,7 @@ def fetch_articles_crossref(topic):
     return articles
 
 # Streamlit interface
-st.title("Search Scholarly Articles using CrossRef")
+st.title("Search Scholarly Articles using Webscrapping")
 topic = st.text_input("Enter a topic to search for recent research papers", "")
 
 if topic:
