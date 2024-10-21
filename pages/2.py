@@ -18,18 +18,6 @@ st.markdown(
 
 API_KEY = '6535dac296854c1681a46c2045bdfe74'
 
-st.set_page_config(initial_sidebar_state="collapsed")
-
-st.markdown(
-    """
-<style>
-    [data-testid="collapsedControl"] {
-        display: none
-    }
-</style>
-""",
-    unsafe_allow_html=True,
-)
 
 def fetch_news(api_key, query):
     url = f'https://newsapi.org/v2/everything?q={query}&apiKey={api_key}'
