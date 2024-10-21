@@ -1,0 +1,7 @@
+firebase_admin
+streamlit
+requests
+json
+streamlit_extras
+pillow
+pandas
