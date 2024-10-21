@@ -1,14 +1,11 @@
 import streamlit as st
-import firebase_admin
-from firebase_admin import firestore
 from firebase_admin import credentials
-from firebase_admin import auth
 import json
 from streamlit_extras.switch_page_button import switch_page
 import requests
 from Expert_verify import get_orcid_education_and_works
 
-st.set_page_config(initial_sidebar_state="collapsed")
+#st.set_page_config(initial_sidebar_state="collapsed")
 
 st.markdown(
     """
