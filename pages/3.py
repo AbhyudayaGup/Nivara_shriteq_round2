@@ -48,5 +48,4 @@ else:
 
 # Back button to return to page1.py
 if st.button("Back"):
-    st.experimental_rerun()
     switch_page("2")
